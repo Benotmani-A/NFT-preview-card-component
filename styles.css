@@ -22,7 +22,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-
+/* Sizing the container*/
 .nft-card {
   width: 21.875rem;
   height: 37.5rem;
@@ -38,7 +38,7 @@ body {
   padding: 1.5rem;
   color: var(--Soft-blue);
 }
-
+/* Styling main img and overlay*/
 .img-overlay {
   position: relative;
   width: 100%;
@@ -76,12 +76,7 @@ body {
   -ms-transform: translate(-50%, -50%);
 }
 
-.overlay:hover {
-  opacity: 1;
-  background-color: hsla(178, 100%, 50%, 0.4);
-  cursor: pointer;
-}
-
+/* Styling header and paragraph*/
 h1 {
   font-size: 22px;
   color: white;
@@ -96,7 +91,7 @@ h1 {
   font-weight: 300;
   margin-bottom: 0;
 }
-
+/* Styling nft-info and date*/
 .crypto-info {
   display: flex;
   flex-wrap: wrap;
@@ -114,11 +109,15 @@ h1 {
   display: flex;
 }
 
+.nft-logo, .time-logo {
+  margin-right: 7px;
+}
+/* Breaking line */
 hr {
   width: 100%;
   border: 1px solid var(--grey-dark-blue);
 }
-
+/* Styling creators info */
 .acount-info {
   display: flex;
   flex-wrap: wrap;
@@ -138,12 +137,14 @@ hr {
 .creator-name {
   color: var(--White);
 }
+/* Hover animation */
+.overlay:hover {
+  opacity: 1;
+  background-color: hsla(178, 100%, 50%, 0.4);
+  cursor: pointer;
+}
 
 h1:hover, .creator-name:hover {
   color: var(--Cyan);
   cursor: pointer;
-}
-
-.nft-logo, .time-logo {
-  margin-right: 7px;
 }
