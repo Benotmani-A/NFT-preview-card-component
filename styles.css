@@ -12,6 +12,7 @@
 * {
   box-sizing: border-box; 
   font-family: 'Outfit', sans-serif;
+  margin: 0;
 }
 
 body {
@@ -24,12 +25,14 @@ body {
 }
 /* Sizing the container*/
 .nft-card {
+  margin-top: 0;
   width: 21.875rem;
   height: 37.5rem;
   display: flex;
   flex-wrap: wrap;
   background-color: var(--dark-blue);
   border-radius: 15px;
+  box-shadow: 10px 10px 30px rgb(11, 22, 39), -10px 10px 30px rgb(11, 22, 39);
 }
 
 .wrapper {
@@ -81,15 +84,14 @@ h1 {
   font-size: 22px;
   color: white;
   font-weight: 600;
-  padding: 0;
   margin-top: 1.87rem;
-  margin-bottom: 0;
+  
 }
 
 .p1 {
   font-size: 18px;
   font-weight: 300;
-  margin-bottom: 0;
+  margin-top: 24px;
 }
 /* Styling nft-info and date*/
 .crypto-info {
@@ -97,7 +99,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin: 30px 0 20px 0;
+  margin: 30px 0 25px 0;
 }
 
 .amount {
@@ -119,6 +121,7 @@ hr {
 }
 /* Styling creators info */
 .acount-info {
+  margin-top: 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
